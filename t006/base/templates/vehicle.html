@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}{{ vehicle.vin }}{% endblock %}
+{% block body %}
+<h1>{{ vehicle.model }} &ndash; {{ vehicle.vin }}</h1>
+<p>
+  {% if vehicle.online %}<span class="online">online</span>
+  {% else %}<span class="offline">offline</span>{% endif %}
+</p>
+
+<h2>Live signals</h2>
+<table>
+  <tr><th>Signal</th><th>Value</th><th>Unit</th></tr>
+  <tr><td>Brake pressure front</td><td id="sig-brake_pressure_front_bar">{{ signals.brake_pressure_front_bar }}</td><td>bar</td></tr>
+  <tr><td>Brake pressure rear</td><td id="sig-brake_pressure_rear_bar">{{ signals.brake_pressure_rear_bar }}</td><td>bar</td></tr>
+  <tr><td>Reservoir pressure</td><td id="sig-reservoir_pressure_bar">{{ signals.reservoir_pressure_bar }}</td><td>bar</td></tr>
+  <tr><td>Pad wear front axle</td><td id="sig-pad_wear_front_pct">{{ signals.pad_wear_front_pct }}</td><td>%</td></tr>
+  <tr><td>Pad wear rear axle</td><td id="sig-pad_wear_rear_pct">{{ signals.pad_wear_rear_pct }}</td><td>%</td></tr>
+  <tr><td>Ambient temperature</td><td id="sig-ambient_temp_c">{{ signals.ambient_temp_c }}</td><td>&deg;C</td></tr>
+</table>
+
+<h2>Diagnostic Trouble Codes</h2>
+<table>
+  <tr><th>Code</th><th>Description</th><th>Status</th><th>Count</th><th>First seen</th><th>Last seen</th></tr>
+  {% for d in vehicle.dtcs %}
+  <tr>
+    <td>{{ d.code }}</td>
+    <td>{{ d.description }}</td>
+    <td>{% if d.status == 'active' %}<span class="active">active</span>{% else %}stored{% endif %}</td>
+    <td>{{ d.count }}</td>
+    <td>{{ d.first_seen }}</td>
+    <td>{{ d.last_seen }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<form method="post" action="/vehicle/{{ vehicle.vin }}/clear_dtc">
+  <p><button type="submit">Clear stored DTCs</button></p>
+</form>
+
+<script>
+// Legacy live update: poll the JSON endpoint every 2 seconds and patch the table.
+var SIGNALS = ["brake_pressure_front_bar", "brake_pressure_rear_bar",
+               "reservoir_pressure_bar", "pad_wear_front_pct",
+               "pad_wear_rear_pct", "ambient_temp_c"];
+
+function applySignals(data) {
+  for (var i = 0; i < SIGNALS.length; i++) {
+    var k = SIGNALS[i];
+    var cell = document.getElementById("sig-" + k);
+    if (cell && data.signals[k] !== undefined) {
+      cell.innerHTML = data.signals[k];
+      // reservoir pressure below 6.5 bar is implausible/low
+      if (k === "reservoir_pressure_bar") {
+        cell.className = (data.signals[k] < 6.5) ? "warn" : "";
+      }
+    }
+  }
+}
+
+if (window.jQuery) {
+  $(document).ready(function () {
+    setInterval(function () {
+      $.getJSON("/api/vehicle/{{ vehicle.vin }}/signals", applySignals);
+    }, 2000);
+  });
+} else {
+  // jQuery CDN unreachable (offline machine) -- keep the page working anyway.
+  setInterval(function () {
+    fetch("/api/vehicle/{{ vehicle.vin }}/signals")
+      .then(function (r) { return r.json(); })
+      .then(applySignals);
+  }, 2000);
+}
+</script>
+{% endblock %}

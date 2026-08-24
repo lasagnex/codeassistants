@@ -1,0 +1,90 @@
+{
+  "tester": "TA-1100",
+  "fw": "2.8.4",
+  "export_time": "2026-01-12T18:02:11Z",
+  "records": [
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 1,
+      "side": "left",
+      "pad_thickness_mm": 18.09,
+      "measured_at": "2026-01-12T07:11:00Z"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 1,
+      "side": "right",
+      "pad_thickness_mm": 17.77,
+      "measured_at": "2026-01-12T07:18:00Z"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 2,
+      "side": "left",
+      "pad_thickness_mm": 14.75,
+      "measured_at": "2026-01-12T07:25:00Z"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 2,
+      "side": "right",
+      "pad_thickness_mm": 14.12,
+      "measured_at": "2026-01-12T07:32:00Z"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 3,
+      "side": "left",
+      "pad_thickness_mm": 12.5,
+      "measured_at": "2026-01-12T08:39:00Z"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 3,
+      "side": "right",
+      "pad_thickness_mm": 13.03,
+      "measured_at": "2026-01-12T08:46:00Z"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 1,
+      "side": "left",
+      "pad_thickness_mm": 20.36,
+      "measured_at": "2026-01-12T07:11:00Z"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 1,
+      "side": "right",
+      "pad_thickness_mm": 20.67,
+      "measured_at": "2026-01-12T07:18:00Z"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 2,
+      "side": "left",
+      "pad_thickness_mm": 16.38,
+      "measured_at": "2026-01-12T07:25:00Z"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 2,
+      "pad_thickness_mm": 15.76,
+      "measured_at": "2026-01-12T07:32:00Z"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 3,
+      "side": "left",
+      "pad_thickness_mm": 8.91,
+      "measured_at": "2026-01-12T08:39:00Z"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 3,
+      "side": "right",
+      "pad_thickness_mm": 8.27,
+      "measured_at": "2026-01-12T08:46:00Z"
+    }
+  ]
+}

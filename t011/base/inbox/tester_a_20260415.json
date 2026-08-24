@@ -1,0 +1,161 @@
+{
+  "tester": "TA-1100",
+  "fw": "3.4.1",
+  "export_time": "2026-04-15T17:44:03+02:00",
+  "records": [
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 1,
+      "side": "L",
+      "pad_remaining_pct": 70.4,
+      "measured_at": "2026-04-15T08:05:00+02:00"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 1,
+      "side": "R",
+      "pad_remaining_pct": 68.1,
+      "measured_at": "2026-04-15T08:14:00+02:00"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 2,
+      "side": "L",
+      "pad_remaining_pct": 49.7,
+      "measured_at": "2026-04-15T08:23:00+02:00"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 2,
+      "side": "R",
+      "pad_remaining_pct": 45.5,
+      "measured_at": "2026-04-15T08:32:00+02:00"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 3,
+      "side": "L",
+      "pad_remaining_pct": 41.6,
+      "measured_at": "2026-04-15T09:41:00+02:00"
+    },
+    {
+      "vin": "WDB9634031L123456",
+      "axle": 3,
+      "side": "R",
+      "pad_remaining_pct": 44.8,
+      "measured_at": "2026-04-15T09:50:00+02:00"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 1,
+      "side": "L",
+      "pad_remaining_pct": 83.2,
+      "measured_at": "2026-04-15T08:05:00+02:00"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 1,
+      "side": "R",
+      "pad_remaining_pct": 85.1,
+      "measured_at": "2026-04-15T08:14:00+02:00"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 2,
+      "side": "L",
+      "pad_remaining_pct": 58.4,
+      "measured_at": "2026-04-15T08:23:00+02:00"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 2,
+      "side": "R",
+      "pad_remaining_pct": 54.7,
+      "measured_at": "2026-04-15T08:32:00+02:00"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 3,
+      "side": "L",
+      "pad_remaining_pct": 21.5,
+      "measured_at": "2026-04-15T09:41:00+02:00"
+    },
+    {
+      "vin": "WMA06XZZ7BM654321",
+      "axle": 3,
+      "side": "R",
+      "pad_remaining_pct": 17.3,
+      "measured_at": "2026-04-15T09:50:00+02:00"
+    },
+    {
+      "vin": "ZFA25000002654311",
+      "axle": 1,
+      "side": "L",
+      "pad_remaining_pct": 89.7,
+      "measured_at": "2026-04-15T08:05:00+02:00"
+    },
+    {
+      "vin": "ZFA25000002654311",
+      "axle": 1,
+      "side": "R",
+      "pad_remaining_pct": 91.2,
+      "measured_at": "2026-04-15T08:14:00+02:00"
+    },
+    {
+      "vin": "ZFA25000002654311",
+      "axle": 2,
+      "side": "L",
+      "pad_remaining_pct": 80.6,
+      "measured_at": "2026-04-15T08:23:00+02:00"
+    },
+    {
+      "vin": "ZFA25000002654311",
+      "axle": 2,
+      "side": "R",
+      "pad_remaining_pct": 79.1,
+      "measured_at": "2026-04-15T08:32:00+02:00"
+    },
+    {
+      "vin": "WJMM1VNS40C123456",
+      "axle": 1,
+      "side": "L",
+      "pad_remaining_pct": 80.0,
+      "measured_at": "2026-04-15T08:05:00+02:00"
+    },
+    {
+      "vin": "WJMM1VNS40C123456",
+      "axle": 1,
+      "side": "R",
+      "pad_remaining_pct": 78.2,
+      "measured_at": "2026-04-15T08:14:00+02:00"
+    },
+    {
+      "vin": "WJMM1VNS40C123456",
+      "axle": 2,
+      "side": "L",
+      "pad_remaining_pct": 44.7,
+      "measured_at": "2026-04-15T08:23:00+02:00"
+    },
+    {
+      "vin": "WJMM1VNS40C123456",
+      "axle": 2,
+      "side": "R",
+      "pad_remaining_pct": 41.9,
+      "measured_at": "2026-04-15T08:32:00+02:00"
+    },
+    {
+      "vin": "WJMM1VNS40C123456",
+      "axle": 3,
+      "side": "L",
+      "pad_remaining_pct": 61.3,
+      "measured_at": "2026-04-15T09:41:00+02:00"
+    },
+    {
+      "vin": "WJMM1VNS40C123456",
+      "axle": 3,
+      "side": "R",
+      "pad_remaining_pct": 59.4,
+      "measured_at": "2026-04-15T09:50:00+02:00"
+    }
+  ]
+}

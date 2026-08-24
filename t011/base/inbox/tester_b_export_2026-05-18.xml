@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<padMeasurements tester="TB-2200" exportedAt="2026-05-18T19:20:44Z">
+  <vehicle vin="WDB9634031L123456">
+    <measurement axle="1" side="left" thickness="14.56" unit="mm" at="2026-05-18T08:03:00Z"/>
+    <measurement axle="1" side="right" thickness="13.99" unit="mm" at="2026-05-18T08:14:00Z"/>
+    <measurement axle="2" side="left" thickness="9.58" unit="mm" at="2026-05-18T08:25:00Z"/>
+    <measurement axle="2" side="right" thickness="8.57" unit="mm" at="2026-05-18T09:36:00Z"/>
+    <measurement axle="3" side="left" thickness="7.97" unit="mm" at="2026-05-18T09:47:00Z"/>
+    <measurement axle="3" side="right" thickness="8.74" unit="mm" at="2026-05-18T09:58:00Z"/>
+  </vehicle>
+  <vehicle vin="WMA06XZZ7BM654321">
+    <measurement axle="1" side="left" thickness="17.59" unit="mm" at="2026-05-18T08:03:00Z"/>
+    <measurement axle="1" side="right" thickness="18.02" unit="mm" at="2026-05-18T08:14:00Z"/>
+    <measurement axle="2" side="left" thickness="11.59" unit="mm" at="2026-05-18T08:25:00Z"/>
+    <measurement axle="2" side="right" thickness="10.72" unit="mm" at="2026-05-18T09:36:00Z"/>
+    <measurement axle="3" side="left" thickness="3.24" unit="mm" at="2026-05-18T09:47:00Z"/>
+    <measurement axle="3" side="right" thickness="2.22" unit="mm" at="2026-05-18T09:58:00Z"/>
+  </vehicle>
+  <vehicle vin="VF3XXXXXXXX778899">
+    <measurement axle="1" side="left" thickness="9.48" unit="mm" at="2026-05-18T08:03:00Z"/>
+    <measurement axle="1" side="right" thickness="8.80" unit="mm" at="2026-05-18T08:14:00Z"/>
+    <measurement axle="2" side="left" thickness="4.90" unit="mm" at="2026-05-18T08:25:00Z"/>
+    <measurement axle="2" side="right" thickness="3.79" unit="mm" at="2026-05-18T09:36:00Z"/>
+  </vehicle>
+  <vehicle vin="YS2R4X20005399401">
+    <measurement axle="1" side="left" thickness="20.39" unit="mm" at="2026-05-18T08:03:00Z"/>
+    <measurement axle="1" side="right" thickness="19.85" unit="mm" at="2026-05-18T08:14:00Z"/>
+    <measurement axle="2" side="left" thickness="12.68" unit="mm" at="2026-05-18T08:25:00Z"/>
+    <measurement axle="2" side="right" thickness="13.55" unit="mm" at="2026-05-18T09:36:00Z"/>
+    <measurement axle="3" side="left" thickness="3.28" unit="mm" at="2026-05-18T09:47:00Z"/>
+    <measurement axle="3" side="right" thickness="2.17" unit="mm" at="2026-05-18T09:58:00Z"/>
+  </vehicle>
+  <vehicle vin="XLRTE47MS0E123987">
+    <measurement axle="1" side="left" thickness="13.33" unit="mm" at="2026-05-18T08:03:00Z"/>
+    <measurement axle="1" side="right" thickness="12.89" unit="mm" at="2026-05-18T08:14:00Z"/>
+    <measurement axle="2" side="left" thickness="5.03" unit="mm" at="2026-05-18T08:25:00Z"/>
+    <measurement axle="2" side="right" thickness="4.26" unit="mm" at="2026-05-18T09:36:00Z"/>
+    <measurement axle="3" side="left" thickness="11.94" unit="mm" at="2026-05-18T09:47:00Z"/>
+    <measurement axle="3" side="right" thickness="12.38" unit="mm" at="2026-05-18T09:58:00Z"/>
+  </vehicle>
+  <vehicle vin="YV2AS02A8EB712345">
+    <measurement axle="1" side="left" thickness="22.50" unit="mm" at="2026-05-18T08:03:00Z"/>
+    <measurement axle="1" side="right" thickness="21.96" unit="mm" at="2026-05-18T08:14:00Z"/>
+    <measurement axle="2" side="left" thickness="14.69" unit="mm" at="2026-05-18T08:25:00Z"/>
+    <measurement axle="2" side="right" thickness="15.56" unit="mm" at="2026-05-18T09:36:00Z"/>
+    <measurement axle="3" side="left" thickness="12.68" unit="mm" at="2026-05-18T09:47:00Z"/>
+    <measurement axle="3" side="right" thickness="12.01" unit="mm" at="2026-05-18T09:58:00Z"/>
+  </vehicle>
+</padMeasurements>

@@ -1,0 +1,31 @@
+{
+  "tester": "TA-1100",
+  "fw": "2.8.4",
+  "export_time": "2026-06-20T18:02:11Z",
+  "records": [
+    {
+      "vin": "XLRTE47MS0E123987",
+      "axle": 1,
+      "side": "left",
+      "pad_thickness_mm": 12.37,
+      "measured_at": "2026-06-20T07:11:00Z"
+    },
+    {
+      "vin": "XLRTE47MS0E123987",
+      "axle": 1,
+      "side": "right",
+      "pad_thickness_mm": 11.9,
+      "measured_at": "2026-06-20T07:18:00Z"
+    },
+    {
+      "vin": "XLRTE47MS0E123987",
+      "axle": 2,
+      "side": "left",
+      "pad_thickness_mm": 3.81,
+      "measured_at": "2026-06-20T07:25:00Z"
+    },
+    {
+      "vin": "XLRTE47MS0E123987",
+      "axle": 2,
+      "side": "right",
+    

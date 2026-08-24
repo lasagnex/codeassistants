@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}EBS Diagnostics - vehicles{% endblock %}
+{% block body %}
+<h1>EBS Diagnostic Dashboard</h1>
+<table>
+  <tr><th>VIN</th><th>Model</th><th>Status</th><th>Active DTCs</th></tr>
+  {% for v in vehicles %}
+  <tr>
+    <td><a href="/vehicle/{{ v.vin }}">{{ v.vin }}</a></td>
+    <td>{{ v.model }}</td>
+    <td>
+      {% if v.online %}<span class="online">online</span>
+      {% else %}<span class="offline">offline</span>{% endif %}
+    </td>
+    <td>{{ v.active_dtcs }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
